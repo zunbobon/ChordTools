@@ -13,6 +13,8 @@
 		687D08B320AF510E00F9E3CF /* ChordTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 687D08B120AF510E00F9E3CF /* ChordTools.xcdatamodeld */; };
 		687D08B520AF510F00F9E3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687D08B420AF510F00F9E3CF /* Assets.xcassets */; };
 		687D08B820AF510F00F9E3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687D08B620AF510F00F9E3CF /* LaunchScreen.storyboard */; };
+		687D08C020AF588800F9E3CF /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687D08BF20AF588800F9E3CF /* Notes.swift */; };
+		687D08C220B2FD7A00F9E3CF /* Chords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687D08C120B2FD7A00F9E3CF /* Chords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		687D08B420AF510F00F9E3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687D08B720AF510F00F9E3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		687D08B920AF510F00F9E3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687D08BF20AF588800F9E3CF /* Notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		687D08C120B2FD7A00F9E3CF /* Chords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				687D08AA20AF510D00F9E3CF /* AppDelegate.swift */,
 				687D08AC20AF510E00F9E3CF /* ViewController.swift */,
+				687D08BF20AF588800F9E3CF /* Notes.swift */,
+				687D08C120B2FD7A00F9E3CF /* Chords.swift */,
 				687D08AE20AF510E00F9E3CF /* Main.storyboard */,
 				687D08B420AF510F00F9E3CF /* Assets.xcassets */,
 				687D08B620AF510F00F9E3CF /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				687D08AD20AF510E00F9E3CF /* ViewController.swift in Sources */,
+				687D08C220B2FD7A00F9E3CF /* Chords.swift in Sources */,
 				687D08AB20AF510D00F9E3CF /* AppDelegate.swift in Sources */,
 				687D08B320AF510E00F9E3CF /* ChordTools.xcdatamodeld in Sources */,
+				687D08C020AF588800F9E3CF /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
