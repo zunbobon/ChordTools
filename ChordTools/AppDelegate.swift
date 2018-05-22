@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        initNotes()
+        
+        testFunction()
+        
         return true
     }
 
@@ -87,6 +92,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    
+    func initNotes() {
+        //基本12音生成
+        for i in 0..<12 {
+            base12NoteArray.append( BasicNote(num: i) )
+        }
+        
+        for i in 0...127 {
+            NotesArray.append( Note(noteNum: i) )
+            //print (Note(noteNum: i).basicNote.eNameSharp )
+        }
+    }
+    
+    func testFunction(){
+        make_D_DiatonicChords()
+    }
+    
+    func make_D_DiatonicChords(){
+        /*
+        for n in scale.major {
+            print(NotesArray[50+n])
+        }
+       */
+     
     }
 
 }
